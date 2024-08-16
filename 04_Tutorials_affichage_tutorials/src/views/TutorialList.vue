@@ -25,8 +25,7 @@ const sortedTutorials = computed(() => {
   });
 });
 
-const printDate = (datetime) => useDateFormat(datetime, 'dddd DD MMMM YYYY à HH:mm')
-
+const printDate = (datetime) => computed(() => useDateFormat(datetime, 'dddd DD MMMM YYYY à HH:mm'));
 </script>
 
 <template>
