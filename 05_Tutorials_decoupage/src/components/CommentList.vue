@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import {ref} from "vue";
+import type Comment from "@/models/comment.model";
 
 const isShown = ref(false);
 
