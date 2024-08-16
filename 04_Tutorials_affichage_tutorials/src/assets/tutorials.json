@@ -1,0 +1,88 @@
+[
+  {
+    "id": 1,
+    "title": "Afficher une liste avec Vue",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi aperiam aspernatur cupiditate deserunt dignissimos dolor doloremque eligendi eos est excepturi expedita ipsam laboriosam laborum laudantium natus omnis quaerat quas, qui quibusdam ratione reiciendis tenetur ullam unde vel velit vitae voluptatum. Illum inventore ipsam odit perferendis ratione. At consequatur, ratione!",
+    "author": {
+      "id": 1,
+      "email": "j.doe@tuto.fr",
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    "category": {
+      "id": 6,
+      "name": "Angular"
+    },
+    "createdAt": "2055-01-30T00:00:00Z",
+    "comments": []
+  },
+  {
+    "id": 2,
+    "title": "Initiation au langage Java",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi aperiam aspernatur cupiditate deserunt dignissimos dolor doloremque eligendi eos est excepturi expedita ipsam laboriosam laborum laudantium natus omnis quaerat quas, qui quibusdam ratione reiciendis tenetur ullam unde vel velit vitae voluptatum. Illum inventore ipsam odit perferendis ratione. At consequatur, ratione!",
+    "author": {
+      "id": 2,
+      "email": "j.waaaa@tuto.fr",
+      "firstName": "Jane",
+      "lastName": "Waaaa"
+    },
+    "category": {
+      "id": 1,
+      "name": "Java"
+    },
+    "createdAt": "2055-12-02T00:00:00Z",
+    "comments": [
+      {
+        "id": 10,
+        "content": "Super tuto ! Bravo Jane",
+        "author": {
+          "id": 2,
+          "email": "j.waaaa@tuto.fr",
+          "firstName": "Jane",
+          "lastName": "Waaaa"
+        }
+      },
+      {
+        "id": 11,
+        "content": "Très intéressant, merci pour le partage",
+        "author": {
+          "id": 1,
+          "email": "j.doe@tuto.fr",
+          "firstName": "John",
+          "lastName": "Doe"
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Initiation au macro VBA",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi aperiam aspernatur cupiditate deserunt dignissimos dolor doloremque eligendi eos est excepturi expedita ipsam laboriosam laborum laudantium natus omnis quaerat quas, qui quibusdam ratione reiciendis tenetur ullam unde vel velit vitae voluptatum. Illum inventore ipsam odit perferendis ratione. At consequatur, ratione!",
+    "author": {
+      "id": 3,
+      "email": "b.sau@tuto.fr",
+      "firstName": "Boris",
+      "lastName": "Sau"
+    },
+    "category": {
+      "id": 1,
+      "name": "VBA"
+    },
+    "createdAt": "2055-09-16T00:00:00Z",
+    "comments": [
+      {
+        "id": 12,
+        "content": "Excel est vraiment génial avec VBA",
+        "author": {
+          "id": 2,
+          "email": "j.waaaa@tuto.fr",
+          "firstName": "Jane",
+          "lastName": "Waaaa"
+        }
+      }
+    ]
+  }
+]
